@@ -415,12 +415,12 @@ floor {
     height: 400rem;
     transform: rotateX(90deg) translate3d(-150rem, -50rem, 0rem);
     box-shadow: 0 0 1rem #110e12, inset 0 0 10rem 0 rgba(17, 14, 18, 0.75);
-    background: linear-gradient(#000, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), repeating-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 12rem, rgba(17, 14, 18, 0.5) 12.5rem), radial-gradient(#f59090, #361f0e);
+    background: linear-gradient(#000, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), repeating-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 12rem, rgba(17, 14, 18, 0.5) 12.5rem), radial-gradient(#d9996b, #361f0e);
 }
 
 floor:before,
 floor:after {
-    background: radial-gradient(circle at center top, #6dbbff, #110e12);
+    background: radial-gradient(circle at center top, #7f95a8, #110e12);
 }
 
 floor:before {
@@ -434,7 +434,7 @@ floor:after {
 ceiling {
     transform: rotateX(-90deg) translate3d(-150rem, 0, -200rem);
     box-shadow: 0 0 1rem #7f95a8, inset 0 0 10rem 0 rgba(17, 14, 18, 0.2);
-    background: radial-gradient(#fff, #43a7ff);
+    background: radial-gradient(#fff, #7f95a8);
 }
 
 ceiling:before {
@@ -443,7 +443,7 @@ ceiling:before {
 
 ceiling:after {
     transform: rotateX(90deg) translate3d(0, 150rem, 150rem);
-    background: radial-gradient(circle at center top, #43a7ff, #110e12);
+    background: radial-gradient(circle at center top, #7f95a8, #110e12);
 }
 
 wall1 painting,
@@ -522,8 +522,7 @@ wall3 painting {
 
 wall4 {
     transform: translate3d(-150rem, -50rem, -150rem);
-    /* background: radial-gradient(circle at 60% 80%, rgba(255, 255, 255, 0), rgba(17, 14, 18, 0.5)), linear-gradient(to right, rgba(17, 14, 18, 0.5), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(17, 14, 18, 0.5)); */
-    background: radial-gradient(circle at 60% 80%, rgba(255, 255, 255, 0), rgba(30, 150, 255, 0)), linear-gradient(to right, rgba(30, 150, 255, 0.6), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(30, 150, 255, 0.7));
+    background: radial-gradient(circle at 60% 80%, rgba(255, 255, 255, 0), rgba(17, 14, 18, 0.5)), linear-gradient(to right, rgba(17, 14, 18, 0.5), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(17, 14, 18, 0.5));
     box-shadow: 0 0 1rem #110e12;
     width: 300rem;
     height: 250rem;
